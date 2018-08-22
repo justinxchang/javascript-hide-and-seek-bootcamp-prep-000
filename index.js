@@ -17,9 +17,10 @@ function deepestChild(){
   let parent = document.getElementById("grand-node")
   let child = parent.children[0]
   while(child){
-    child = child.children[0]
+    parent = child.children[0]
+    child = parent.child[0]
   }
-  return parent.child
+  return parent
 }  
 
 
