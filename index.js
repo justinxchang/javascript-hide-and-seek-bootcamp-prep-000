@@ -20,7 +20,7 @@ function deepestChild(){
     parent = child.children[0]
     child = parent.child[0]
   }
-  return parent
+  return child
 }  
 
 
